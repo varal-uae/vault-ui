@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./login-page.css" />
+    <!-- fontawesome starts -->
+    <script
+      src="https://kit.fontawesome.com/57c5287908.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto Sans"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="navbar.css">
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <section>
+          <nav class="navbar navbar-expand-lg navbar-light ">
+              <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="assests/Rectangle 473.png" alt="" class="w-75"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                      aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                      <ul class="navbar-nav mb-2 mb-lg-0 ">
+                          <li class="nav-item">
+                              <a class="nav-link" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link " href="#">Contact Us</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link " href="#">About Us</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link " href="#">FAQ</a>
+                          </li>
+                      </ul>
+                      <img src="Assets/Rectangle 473.png" alt="">
+                      <form class="d-flex align-items-center justify-content-center">
+                          <a class="px-2" href=""><img src="assests/search 1.png" alt="">
+                              </a>
+                              <a class="px-2" href=""><img src="assests/Group 23.png" alt="">
+                                  </a>
+                                  <a class="px-2" href=""><img src="assests/Vector (2).png" alt="">
+                                      </a>
+            <img src="assests/Ellipse 3.png" alt="" style="height: 35px;width: auto;">
+              <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
+                 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">one</a>
+                  <a class="dropdown-item" href="#">two</a>
+                  <a class="dropdown-item" href="#">three</a>
+                </div>
+              </div>
+                    </div>
+                      </form>
+                  </div>
+          </nav>
+      </section>
+      
+       </div>
+      <section class="login-section">
+        <h2>Login</h2>
+        <div class="login-section__body">
+          <div class="input-group mb-3">
+            <span class="email-field" id="">Email</span>
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-default"
+            />
+          </div>
+          <div class="input-group input-wrapper mb-3">
+            <span class="password-field" id="">Password</span>
+
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-default"
+            />
+            <img
+              class="show-pass"
+              src="./assests/images/pngwing 2.png"
+              alt=""
+            />
+          </div>
+          <button type="button" class="btn">Login</button>
+          <div class="forgot-pass">
+            <a href="">Forgot password?</a>
+          </div>
+          <div class="register-here">
+            <p>
+              Don't have an account?
+              <a href="Registration.html">Register here</a>
+            </p>
+          </div>
+        </div>
+        <div class="or-line">
+          <hr class="first-line" />
+          <h2>Or</h2>
+          <hr class="first-line" hr />
+        </div>
+        <div class="login-section__img">
+          <img src="./assests/images/google.png" alt="" />
+          <img src="./assests/images/facebook.png" alt="" />
+        </div>
+      </section>
+    </main>
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+body {
+    font-family: 'Noto Sans';
+}
+
+/* nav button  */
+.login-register__btn {
+    width: 178px;
+    height: 43px;
+    top: 64px;
+    color: white;
+    background: linear-gradient(90deg, #DE3309 -21.63%, #E06907 56.59%, #F7350A 129.49%);
+    border: none;
+    border-radius: 6px;
+}
+
+/* registration field  */
+.registration-box {
+    
+}
+
+.registration-box__text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.registration-box__input-tittle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.registration-box__input {
+    width: 520px;
+    height: 48px;
+    left: 30px;
+    top: 108px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: -2px -2px 10px rgba(180, 180, 180, 0.15), 2px 2px 10px rgba(180, 180, 180, 0.15);
+    border-radius: 8px;
+}
+.registration-box__input-phoneNumber {
+    width: auto;
+    height: 48px;
+    left: 30px;
+    top: 108px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: -2px -2px 10px rgba(180, 180, 180, 0.15), 2px 2px 10px rgba(180, 180, 180, 0.15);
+    border-radius: 8px;
+}
+.registration-box__input-password{
+    width:248px;;
+    height: 48px;
+    left: 30px;
+    top: 108px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: -2px -2px 10px rgba(180, 180, 180, 0.15), 2px 2px 10px rgba(180, 180, 180, 0.15);
+    border-radius: 8px;
+}
+
+.verify__email {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    cursor: pointer;
+    color: #525DED;
+
+}
+
+.dropdown__btn {
+    width: 94px;
+    height: 48px;
+}
+.password__field{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    /* registration field  */
+    .registration-box__input {
+        width: auto;
+
+    }
+    .registration-box__input-password{
+        width: auto;
+    }
+    .password__field{
+        display: block;
+        
+    }
+}
+@media only screen and (max-width: 1200px) {
+    /* registration field  */
+    .registration-box__input {
+        width: 80%;
+
+    }
+    .registration-box__input-password{
+        width: 80%;
+    }
+    .password__field{
+        display: block;
+        
+    }
+}
