@@ -1,0 +1,299 @@
+/* navbar css part starts */
+@media (max-width: 992px) {
+  .navbar-collapse .varal-logo {
+    display: none;
+  }
+  .nav__useraccount {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: space-between;
+  }
+
+  .navbar-brand img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 1024px) {
+  button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+      no-repeat center;
+    cursor: pointer;
+    position: absolute;
+  }
+
+  input[type="search"] {
+    background: #ffffff;
+    border: 1px solid #142805;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    position: relative;
+  }
+}
+
+.nav__useraccount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+img.varal-logo {
+  margin-right: -120px;
+}
+
+.nav-link {
+  margin: 20px;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+  color: #a6a6a6 !important;
+  font-family: Noto Sans !important;
+}
+
+.header__search {
+  background-color: #ffffff;
+}
+/*  */
+
+input[type="search"] {
+  background: #ffffff;
+  border: 1px solid #142805;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  color: inherit;
+}
+
+button[type="submit"] {
+  text-indent: -999px;
+  overflow: hidden;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background: transparent
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat center;
+  cursor: pointer;
+}
+
+/*  */
+/* ends */
+
+/* service page body section css part starts */
+
+.section__title {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  /* identical to box height */
+
+  margin: 10px 30px;
+  color: #000000;
+}
+
+.fa-solid {
+  margin-right: 10px;
+}
+
+.service__form p {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.service__form input {
+  background: #f0f0f0;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px rgba(136, 136, 136, 0.25);
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  width: 70%;
+}
+
+.servicepage {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.service__form--description p {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.service__form--description span {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  color: #f0f0f0;
+}
+
+.service__form--description textarea {
+  background: linear-gradient(180deg, #f0f0f0 94.79%, #df4609 100%);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px rgba(136, 136, 136, 0.25);
+  border-radius: 8px;
+  width: 70%;
+  height: 250px;
+  border: none;
+  padding: 10px;
+}
+
+.submit-btn a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.submit-btn {
+  background: linear-gradient(
+    90deg,
+    #de3309 -21.63%,
+    #e06907 56.59%,
+    #f7350a 129.49%
+  );
+  border-radius: 6px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+  width: 70%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.service__requestimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/* ends */
+
+.container-2 {
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.container-2 input#search {
+  width: 50px;
+  height: 50px;
+  border: none;
+  font-size: 10pt;
+  float: right;
+  padding-left: 35px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.container-2 input#search::-webkit-input-placeholder {
+  color: #65737e;
+}
+
+.container-2 input#search:-ms-input-placeholder {
+  color: #65737e;
+}
+
+.container-2 .icon {
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 10px;
+  z-index: 1;
+  color: #000000;
+  font-size: 22px;
+}
+
+.container-2 input#search:focus,
+.container-2 input#search:active {
+  outline: none;
+  width: 300px;
+}
+
+.container-2 input#search::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.container-2 input#search:-moz-placeholder {
+  /* Firefox 18- */
+  color: #ffffff;
+}
+
+.container-2 input#search::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ffffff;
+}
+
+.container-2 input#search:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.container-2:hover input#search {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.container-2:hover .icon {
+  color: #000000;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}

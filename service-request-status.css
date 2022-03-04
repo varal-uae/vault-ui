@@ -94,3 +94,10 @@ input[type="color"]:focus,
     background: none;
   }
 }
+
+
+@media (max-width: 992px) {
+  .secondCol{
+    margin-bottom: 30px;
+  }
+}
