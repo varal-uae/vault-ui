@@ -1,0 +1,369 @@
+.service-request-wrapper {
+  width: 95%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.service-request__left {
+  background: #f3f3f3;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 615px;
+  padding: 30px !important;
+}
+.service-request__left h4 {
+font-weight: 500;
+font-size: 24px;
+line-height: 33px;
+
+color: #DF4A1E;
+
+}
+.service-request__left .title {
+  margin-bottom: 75px;
+}
+
+.service-request__left .left-arrow {
+  margin-right: 20px;
+  width: 30px;
+}
+.service-request__left h5 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.service-request__left .heading-content {
+text-align: center;
+margin: 120px 0 70px;
+}
+
+.service-request__left .input-content {
+  padding-left: 44px;
+}
+.service-request__left .input-content .name-select {
+  background: #ffffff;
+  box-shadow: 4px 4px 10px rgba(136, 136, 136, 0.25);
+  border-radius: 8px;
+  border: 0;
+  padding: 8px;
+  width: 100%;
+  max-width: 320px;
+  margin: 5px 5px 22px;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: rgba(154, 151, 151, 0.8);
+}
+.service-request__left .input-content button{
+ background: #FFFFFF;
+border: 1px solid #E06907;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+width: 238px;
+height: 51px;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+margin-bottom: 29px;
+color: #E06907;
+}
+.service-request__left .input-content button:hover{
+background: linear-gradient(90.07deg, #DE3409 0.06%, #E06907 50.18%, #DD300A 99.95%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+color: white;
+}
+.service-request__left .input-content .track-button{
+ text-align: center;
+}
+
+.service-request__right {
+  text-align: end;
+}
+.service-request__right img {
+  margin-top: 100px;
+  width: 100%;
+  max-width: 480px;
+}
+input[type='file'] {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .service-request__left .input-content {
+    padding-left: 1px;
+  }
+  .service-request__left {
+    background: white;
+  }
+  .service-request__left .heading-content {
+    text-align: center;
+    margin: 20px 0 30px;
+}
+.service-request__right img {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 480px;
+}
+}
+@media only screen and (max-width: 1023px) {
+
+  .service-request__left .input-content {
+    padding-left: 1px;
+  }
+  .service-request__left .heading-content {
+    text-align: center;
+    margin: 52px 0 21px;
+}
+}
+@media only screen and (max-width: 1233px) {
+
+  .service-request__left .input-content button{
+margin-right: 10px;
+}
+}
+
+
+
+/* navbar css part starts */
+@media (max-width: 992px) {
+    .navbar-collapse .varal-logo {
+        display: none;
+    }
+
+
+    .nav__useraccount {
+        justify-content: center;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: space-between;
+    }
+
+    .navbar-brand img {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 1024px) {
+    button[type="submit"] {
+        text-indent: -999px;
+        overflow: hidden;
+        width: 40px;
+        padding: 0;
+        margin: 0;
+        border: 1px solid transparent;
+        border-radius: inherit;
+        background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+        cursor: pointer;
+        position: absolute;
+    }
+
+
+    input[type="search"] {
+        background: #FFFFFF;
+        border: 1px solid #142805;
+        box-sizing: border-box;
+        border-radius: 5px;
+        margin: 0;
+        padding: 7px 8px;
+        font-size: 14px;
+        color: inherit;
+        position: relative;
+    }
+
+
+}
+
+
+.nav__useraccount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+img.varal-logo {
+    width: 10%;
+
+}
+
+.nav-link {
+    margin: 20px;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    color: #A6A6A6 !important;
+    font-family: Noto Sans !important;
+}
+
+.header__search {
+    background-color: #FFFFFF;
+}
+.navbar__user-img{
+    width: 20%;
+}
+
+/*  */
+
+
+
+
+
+input[type="search"] {
+    background: #FFFFFF;
+    border: 1px solid #142805;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+}
+
+
+
+button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+}
+
+/*  */
+/* ends */
+
+
+
+
+.container-2 {
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.container-2 input#search {
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 10pt;
+    float: right;
+    padding-left: 35px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.container-2 input#search::-webkit-input-placeholder {
+    color: #65737e;
+}
+
+
+
+.container-2 input#search:-ms-input-placeholder {
+    color: #65737e;
+}
+
+.container-2 .icon {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 10px;
+    z-index: 1;
+    color: #000000;
+    font-size: 20px;
+}
+
+.container-2 input#search:focus, .container-2 input#search:active {
+    outline: none;
+    width: 300px;
+}
+
+
+
+.container-2 input#search::-webkit-input-placeholder {
+    color: #FFFFFF;
+}
+
+.container-2 input#search:-moz-placeholder {
+    /* Firefox 18- */
+    color: #FFFFFF;
+}
+
+.container-2 input#search::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #FFFFFF;
+}
+
+.container-2 input#search:-ms-input-placeholder {
+    color: #FFFFFF;
+}
+
+.container-2:hover input#search {
+    width: 300px;
+    border: 1px solid black;
+}
+
+.container-2:hover .icon {
+    color: #000000;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .container-2 input#search:focus, .container-2 input#search:active {
+        outline: none;
+        width: 200px;
+    }
+
+    .container-2:hover input#search {
+        width: 200px;
+        border: 1px solid black;
+    }
+
+    img.varal-logo {
+        margin-right: -60px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+
+    .container-2 input#search:focus, .container-2 input#search:active {
+        outline: none;
+        width: 200px;
+    }
+
+    .container-2:hover input#search {
+        width: 200px;
+        border: 1px solid black;
+    }
+
+
+}
