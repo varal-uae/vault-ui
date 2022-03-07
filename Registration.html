@@ -20,7 +20,6 @@
     />
     <!-- css -->
     <link rel="stylesheet" href="./Registration.css" />
-    <link rel="stylesheet" href="navbar.css" />
     <title>Registration</title>
   </head>
 
@@ -36,7 +35,7 @@
           <div class="col-md-6">
             <img
               class="img-fluid"
-              src="./assests/images/Refer-friend.png"
+              src="./assets/images/Refer-friend.png"
               alt=""
             />
           </div>
@@ -57,24 +56,13 @@
             <div id="showInput"></div>
             <p class="registration-box__input-tittle m-1 mt-3">Phone Number</p>
             <div class="d-flex">
-              <div class="dropdown">
-                <button
-                  class="btn dropdown__btn shadow dropdown-toggle"
-                  type="button"
-                  id="dropdownMenuButton1"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  IN +91
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </div>
+              <form>
+                <select id="mySelect" class="btn dropdown__btn">
+                  <option value="apple">IN +91</option>
+                  <option value="orange">BD +88</option>
+                  <option value="pineapple">UAE +971</option>
+                </select>
+              </form>
               <input class="registration-box__input-phoneNumber" type="text" />
             </div>
             <div class="password__field">
