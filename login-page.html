@@ -74,7 +74,7 @@
                   </div>
           </nav>
       </section>
-      
+
        </div>
       <section class="login-section">
         <h2>Login</h2>
@@ -92,7 +92,8 @@
             <span class="password-field" id="">Password</span>
 
             <input
-              type="text"
+              id="myInput"
+              type="password"
               class="form-control"
               aria-label="Sizing example input"
               aria-describedby="inputGroup-sizing-default"
@@ -100,6 +101,7 @@
             <img
               class="show-pass"
               src="./assets/images/pngwing 2.png"
+              onclick="myFunction()"
               alt=""
             />
           </div>
@@ -126,6 +128,14 @@
       </section>
     </main>
     <script>
+        function myFunction() {
+        var x = document.getElementById('myInput');
+        if (x.type === 'password') {
+          x.type = 'text';
+        } else {
+          x.type = 'password';
+        }
+      }
       function openNav() {
         document.getElementById("myNav").style.width = "100%";
       }
