@@ -1,0 +1,432 @@
+/* service page body section css part starts */
+
+.track__section__title{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    /* identical to box height */
+    margin: 10px 20px;
+    
+    color: rgba(221, 57, 9, 0.91);
+    
+
+}
+
+.fa-solid{
+margin-right: 10px;
+}
+
+
+
+.track__service__form p{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    
+    
+    color: rgba(0, 0, 0, 0.5);
+
+display: flex;
+align-items: flex-start;
+}
+
+.track__service__form input{
+    background: #FFFFFF;
+        box-shadow: 4px 4px 10px rgba(136, 136, 136, 0.25);
+        border-radius: 8px;
+        width: 348px;
+        border: none;
+        padding: 10px; 
+}
+
+    .track__service__form{
+        margin: 74px 74px;
+    }
+    .submit-btn{
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        background: linear-gradient(90.07deg, #DE3409 0.06%, #E06907 50.18%, #DD300A 99.95%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+cursor: pointer;
+text-decoration: none;
+padding: 10px;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+width: 158px;
+color: #FFFFFF;
+    }
+
+    .cancel-btn{
+        text-decoration: none;     
+font-family: Noto Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+padding: 10px;
+color: rgba(0, 0, 0, 0.5);
+
+
+    }
+
+    .track__service__requestimg{
+        display: block;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* ends */
+.track__servicepage{
+    background: #F3F3F3;
+    border-radius: 20px;
+    margin: 30px 30px;
+    height: 100%;
+}
+
+.track__service__buttons{
+    display: flex;
+    margin: 20px 0px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+
+    .track__section__title {
+        margin: 0px 20px;
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        color: rgba(221, 57, 9, 0.91);
+    }
+
+    .track__service__form {
+        margin: 0px;
+    }
+    .track__servicepage {
+        background: #F3F3F3;
+        border-radius: 20px;
+        margin: 0px;
+    }
+
+    .track__service__form p {
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+        color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: flex-start;
+        margin-left: 20px;
+    }
+
+    .track__service__form input {
+        background: #FFFFFF;
+        box-shadow: 4px 4px 10px rgb(136 136 136 / 25%);
+        border-radius: 8px;
+        width: 270px;
+        border: none;
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .submit-btn {
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        background: linear-gradient(90.07deg, #DE3409 0.06%, #E06907 50.18%, #DD300A 99.95%);
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 10px;
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        width: 158px;
+        color: #FFFFFF;
+        margin: 0px 20px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+
+    .track__section__title {
+        margin: 0px 20px;
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        color: rgba(221, 57, 9, 0.91);
+    }
+
+    .track__service__form {
+        margin: 0px;
+    }
+
+   
+    .track__servicepage {
+        background: #F3F3F3;
+        border-radius: 20px;
+        margin: 0px;
+    }
+
+    .track__service__form p {
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+        color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: flex-start;
+        margin-left: 20px;
+    }
+
+    .track__service__form input {
+        background: #FFFFFF;
+        box-shadow: 4px 4px 10px rgb(136 136 136 / 25%);
+        border-radius: 8px;
+        width: 270px;
+        border: none;
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .submit-btn {
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        background: linear-gradient(90.07deg, #DE3409 0.06%, #E06907 50.18%, #DD300A 99.95%);
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 10px;
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        width: 158px;
+        color: #FFFFFF;
+        margin: 0px 20px;
+    }
+
+}
+
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+
+    .track__section__title {
+        margin: 0px 20px;
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        color: rgba(221, 57, 9, 0.91);
+    }
+
+    .track__service__form {
+        margin: 0px;
+    }
+
+    .track__servicepage {
+        background: #F3F3F3;
+        border-radius: 20px;
+        margin: 0px;
+    }
+
+    .track__service__form p {
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+        color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: flex-start;
+        margin-left: 20px;
+    }
+
+    .track__service__form input {
+        background: #FFFFFF;
+        box-shadow: 4px 4px 10px rgb(136 136 136 / 25%);
+        border-radius: 8px;
+        width: 350px;
+        border: none;
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .submit-btn {
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        background: linear-gradient(90.07deg, #DE3409 0.06%, #E06907 50.18%, #DD300A 99.95%);
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 10px;
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        width: 158px;
+        color: #FFFFFF;
+        margin: 0px 20px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .track__section__title {
+        margin: 0px 20px;
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        color: rgba(221, 57, 9, 0.91);
+    }
+
+    .track__service__form {
+        margin: 0px;
+    }
+
+    .track__servicepage {
+        background: #F3F3F3;
+        border-radius: 20px;
+        margin: 0px;
+    }
+
+    .track__service__form p {
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+        color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: flex-start;
+        margin-left: 20px;
+    }
+
+    .track__service__form input {
+        background: #FFFFFF;
+        box-shadow: 4px 4px 10px rgb(136 136 136 / 25%);
+        border-radius: 8px;
+        width: 270px;
+        border: none;
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .submit-btn {
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        background: linear-gradient(90.07deg, #DE3409 0.06%, #E06907 50.18%, #DD300A 99.95%);
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 10px;
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        width: 158px;
+        color: #FFFFFF;
+        margin: 0px 20px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+
+    .track__section__title {
+        margin: 0px 20px;
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        color: rgba(221, 57, 9, 0.91);
+    }
+
+    .track__service__form {
+        margin: 0px;
+    }
+    .track__servicepage {
+        background: #F3F3F3;
+        border-radius: 20px;
+        margin: 0px;
+    }
+
+    .track__service__form p {
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+        color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: flex-start;
+        margin-left: 20px;
+    }
+
+    .track__service__form input {
+        background: #FFFFFF;
+        box-shadow: 4px 4px 10px rgb(136 136 136 / 25%);
+        border-radius: 8px;
+        width: 340px;
+        border: none;
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .submit-btn {
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        background: linear-gradient(90.07deg, #DE3409 0.06%, #E06907 50.18%, #DD300A 99.95%);
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 10px;
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        width: 158px;
+        color: #FFFFFF;
+        margin: 0px 20px;
+    }
+
+}
