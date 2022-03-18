@@ -36,6 +36,10 @@ font-weight: 500;
     color: #F24E1E;
     margin: 3px;
 }
+.vm-section-wrapper .filter-content button{
+    border: 0;
+    background: #F3F3F3;
+}
 /* --------tab---------- */
  /* class="tabcontent"  id="table1"" */
 .tab {
