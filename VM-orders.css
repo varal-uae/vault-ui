@@ -1,0 +1,78 @@
+* {
+  font-family: "Noto Sans", serif;
+}
+h5 {
+  color: #fa3e0a !important;
+}
+
+body {
+  background: #f3f3f3;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+.notifications-inner {
+  padding: 10px 60px;
+  position: relative;
+}
+
+.notifications-inner h5 {
+  margin-left: 20px;
+}
+
+.ml20 {
+  margin-left: 20px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.bell {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 30px;
+  width: 199px;
+}
+
+.in-process {
+  color: #f0ae04;
+}
+
+.orders-inner-wrapper {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 40px 60px;
+  background: white;
+  position: relative;
+}
+
+.fwb {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .bell {
+    width: 100px;
+  }
+  [class*="col-md-"] {
+    padding-bottom: 20px;
+  }
+  .notifications-inner {
+    padding: 0;
+  }
+}

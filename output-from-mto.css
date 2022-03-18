@@ -1,0 +1,78 @@
+.mto-section-wrapper {
+  width: 100%;
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.mto-section-wrapper h2{
+ font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+color: rgba(221, 57, 9, 0.91);
+margin-left: 27px;
+
+}
+.mto-section-wrapper .title{
+margin-bottom: 40px;
+}
+.mto-section-wrapper .heading-content{
+ background: linear-gradient(270.05deg, #FA3A0A 0.04%, #FA7507 52.23%, #FA360A 98.93%);
+border-radius: 10px 10px 0px 0px;
+max-width: 1030px;
+margin: 0 auto 10px;
+}
+.mto-section-wrapper .heading-content p{
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+color: #FFFFFF;
+margin: 23px 0px 21px 0px;
+    padding-left: 40px;
+}
+.mto-section-wrapper .body-content{
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+max-width: 1030px;
+margin: 0 auto 10px;
+}
+.mto-section-wrapper .body-content:hover{
+  background: rgba(196, 196, 196, 0.5);
+}
+.mto-section-wrapper .body-content p{
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+color: #000000;
+opacity: 0.5;
+}
+.mto-section-wrapper .body-content .shams-text{
+max-width: 195px;
+margin: 10px 0px 14px 0px;
+}
+.mto-section-wrapper .body-content .david-text{
+margin: 21px 0px 28px 0px;
+}
+.mto-section-wrapper .body-content .date-text{
+margin: 21px 0px 28px 0px;
+}
+.mto-section-wrapper .body-content .body-img{
+margin: 15px 0 10px;
+}
+
+@media only screen and (max-width: 576px) {
+  .mto-section-wrapper .heading-content p{
+    padding-left: 0px;
+}
+}
+@media only screen and (max-width: 1048px) {
+  .mto-section-wrapper .heading-content p{
+    padding-left: 0px;
+}
+.mto-section-wrapper .heading-content {
+    margin: 0 5px 10px;
+}
+.mto-section-wrapper .body-content {
+    margin: 0 5px 10px;
+}
+}

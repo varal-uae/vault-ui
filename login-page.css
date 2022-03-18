@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-section{
+ width: 100%;
+ max-width: 950px;
+ margin: 0 auto;
+}
+.login-section h2{
+ font-weight: normal;
+font-size: 24px;
+line-height: 49px;
+margin: 10px;
+color: #000000;
+}
+.login-section__body{
+ padding: 60px 145px 10px;
+}
+.login-section__body .email-field{
+ margin-right: 70px;
+}
+.login-section__body .password-field{
+ margin-right: 25px;
+}
+.login-section__body span{
+ font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 33px;
+color: #000000;
+margin-top: 10px;
+}
+.login-section__body input{
+  height: 45px;
+  border: none;
+  background: #FFFFFF;
+box-shadow: 4px 4px 10px rgba(136, 136, 136, 0.25);
+border-radius: 8px !important;
+margin-bottom: 28px;
+}
+.login-section__body .forgot-pass{
+ text-align: end;
+ margin: 20px 0;
+}
+.login-section__body .forgot-pass a{
+ font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+color: #11949A;
+text-decoration: none;
+}
+.login-section__body .register-here p{
+ font-weight: normal;
+font-size: 20px;
+line-height: 33px;
+color: #000000;
+}
+.login-section__body .register-here a{
+color: #11949A;
+text-decoration: none;
+}
+.login-section__img{
+ display: flex;
+ justify-content: center;
+ margin: 0 auto;
+}
+.login-section__img img{
+ display: flex;
+ height: 30px;
+ width: 30px;
+ margin-left: 25px;
+}
+.login-section__body button{
+ width: 100%;
+ background: linear-gradient(90.07deg, #DE3409 0.06%, #E06907 50.18%, #DD300A 99.95%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+color: white !important;
+    font-size: 32px !important;
+    line-height: 37px !important;
+margin-top: 20px;
+}
+.login-section .or-line{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.login-section .or-line hr{
+ width: 35%;
+}
+.login-section .or-line h2{
+ margin: 0 20px 20px;
+}
+.input-wrapper{
+ position: relative;
+}
+.show-pass{
+   position: absolute;
+    width: 35px;
+    top: 5px;
+    right: 12px;
+    z-index: 100;
+}
+.register-here{
+ text-align: center;
+}
+@media only screen and (max-width: 767px) {
+ .login-section__body{
+padding: 40px 10px 10px;
+}
+.login-section__body .email-field {
+    margin-right: 50px;
+}
+.login-section__body .password-field {
+    margin-right: 5px;
+}
+}
