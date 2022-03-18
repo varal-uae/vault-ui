@@ -318,6 +318,7 @@ main {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     z-index: 1;
+    
 }
 
 .cse-section-wrapper .body-content>div {
@@ -357,6 +358,15 @@ main {
     margin: auto 0;
     color: #f0ae04;
 }
+.cse-section-wrapper .body-content .green-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    margin: auto 0;
+    color: #33FF00;
+}
 
 .cse-section-wrapper .body-content .yellow-button {
     background: linear-gradient(270.05deg, #fa3a0a 0.04%, #fa7507 52.23%, #fa360a 98.93%);
@@ -381,7 +391,7 @@ main {
     font-size: 14px;
     line-height: 19px;
     margin: auto 0;
-    width: 90px;
+    width: 100px;
     height: 30px;
     background: #FFFFFF;
     font-weight: 700;
