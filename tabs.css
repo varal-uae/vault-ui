@@ -127,6 +127,7 @@
     bottom: -10px;
     width: 60px;
   }
+
 .tab-section .active::after {
   position: absolute;
   content: '';
