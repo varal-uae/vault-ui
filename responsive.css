@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+    .main-row {
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 25px;
+    }
+    .col-6{
+        width: 100% !important;
+    }
+    .first-col{
+        align-items: center;
+        justify-content: center !important;
+        display: flex;
+    }
+    .stat-row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .stat-c{
+        margin: 40px 0 40px 0 !important;
+    }
+    .footer-tag{
+        flex-direction: column;
+        padding: 30px 40px;
+    }
+  }
