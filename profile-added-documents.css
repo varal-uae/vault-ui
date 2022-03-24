@@ -1,0 +1,163 @@
+body {
+  background: rgba(196, 196, 196, 0.2);
+  font-family: "Noto Sans", serif;
+}
+
+.container {
+  background: white;
+}
+
+.primary {
+  color: #fa7507;
+}
+
+button {
+  background: #ffffff;
+  border: 1px solid #fa7507;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #fa7507;
+  padding: 5px 25px;
+}
+
+.arrow {
+  padding: 0 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+.table thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.service {
+  margin: 60px 0;
+}
+
+.pr50 {
+  padding-right: 50px;
+}
+
+.in-progress {
+  color: #faff00;
+}
+
+.complete,
+.delivered {
+  color: #42ff00;
+}
+
+.cancelled {
+  color: #de3309;
+}
+
+.w50p {
+  width: 50%;
+}
+
+.w22p {
+  width: 22%;
+}
+
+.mt13 {
+  margin-top: 13px;
+}
+
+thead {
+  border-radius: 10px;
+}
+
+tbody {
+  background: #ffffff;
+}
+
+th {
+  color: white;
+}
+
+.grey-row {
+  background: rgba(196, 196, 196, 0.5);
+}
+
+.por {
+  position: relative;
+}
+
+.container {
+  z-index: 2;
+}
+
+.down-arrow-wrapper {
+  height: 97vh;
+  width: 100%;
+  position: absolute;
+}
+
+.down-arrow {
+  width: 29px;
+  height: 14px;
+  position: absolute;
+  bottom: 0;
+}
+
+.orange {
+  color: #df4a1e;
+}
+
+.add-new {
+  color: #fa7507;
+  padding: 5px 25px;
+  background: #ffffff;
+  border: 1px solid #fa7507;
+  border-radius: 5px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.vh{
+  visibility: hidden;
+}
+
+.lightPink {
+  background: rgba(250, 117, 7, 0.1);
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+
+.flr {
+  float: right;
+}
+
+.actions {
+  display: none;
+}
+
+tr > td {
+  vertical-align: middle;
+}
+
+td,
+th {
+  padding: 20px !important;
+}
+
+.actions img {
+  width: 28%;
+}
