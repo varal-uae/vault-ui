@@ -7,6 +7,12 @@
   .nav__useraccount {
     justify-content: center;
   }
+    .container-2 {
+  width: 0px !important;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
 }
 
 @media (min-width: 992px) {
@@ -17,6 +23,7 @@
   .navbar-brand img {
     display: none;
   }
+
 }
 
 @media only screen and (max-width: 768px) and (min-width: 1024px) {
