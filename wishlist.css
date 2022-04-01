@@ -23,6 +23,9 @@ main {
   color: #807d7d;
   margin: 0 0 30px 15px;
 }
+.service-section-wrapper .main-content {
+  padding-bottom: 150px;
+}
 .service-section-wrapper .our-title {
   padding: 10px 65px 10px 85px;
 }
