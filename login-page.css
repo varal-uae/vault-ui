@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+main{
+  font-family: 'Noto Sans';
+}
 .login-section{
  width: 100%;
  max-width: 950px;
@@ -106,6 +108,16 @@ margin-top: 20px;
 }
 .register-here{
  text-align: center;
+}
+.login-register__btn {
+  margin-left: 20px;
+  width: 178px;
+  height: 43px;
+  top: 64px;
+  color: white;
+  background: linear-gradient(90deg, #DE3309 -21.63%, #E06907 56.59%, #F7350A 129.49%);
+  border: none;
+  border-radius: 6px;
 }
 @media only screen and (max-width: 767px) {
  .login-section__body{
