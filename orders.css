@@ -118,3 +118,8 @@ td:last-child, th:last-child {
     bottom: 20px;
     cursor: pointer;
 }
+
+thead tr th:first-child,
+tbody tr td:first-child {
+  padding-left: 40px;
+}
