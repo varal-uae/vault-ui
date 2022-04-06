@@ -129,3 +129,17 @@ th:last-child {
 .orange {
   color: #df4a1e;
 }
+
+.mt20{
+  margin-top: 20px;
+}
+
+thead tr th:first-child,
+tbody tr td:first-child {
+  padding-left: 40px;
+}
+
+th{
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
+}
