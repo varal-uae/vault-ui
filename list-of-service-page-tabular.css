@@ -1,0 +1,367 @@
+.product__card-bg{
+  background: #F3F3F3;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.product__details{
+margin: 20px 55px;
+}
+
+.star-rating {
+  direction: rtl;
+  display: inline-block;
+  cursor: default;
+}
+  input[type="radio"] {
+    display: none;
+  }
+
+  label {
+    color: #bbb;
+    font-size: 18px;
+    padding: 0;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  label:hover,
+  label:hover ~ label,
+  input[type="radio"]:checked ~ label {
+    color: #f2b600;
+  }
+
+
+
+  .product__info{
+margin-left: 50px;
+  }
+
+  .product__info-title a{
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+  }
+  .product__info-title-primary{
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+    opacity: 0.5;
+  }
+
+  .product--pricing{
+    margin: 5px 0px;
+  }
+  .product--pricing a{
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    
+    text-align: justify;
+    
+    color: #E06707;
+  }
+
+  .product__info-title img{
+margin-left: 40px;
+border: 2px solid #C64119;
+border-radius: 50%;
+padding: 5px;
+background: #E8E8E8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .product__header-title a{
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 49px;
+/* identical to box height */
+text-decoration: none;
+
+color: #DF4A1E;
+  }
+
+  .fa-solid{
+margin-right: 20px;
+  }
+
+  
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  
+  .product__info-title a {
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 33px; */
+    color: #000000;
+    /* margin: 0px; */
+}
+
+.product__details {
+  /* column-gap: 8px; */
+  margin: 10px 12px;
+}
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+  
+  .product__info-title a {
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+.product__details {
+  margin: 10px 12px;
+}
+
+}
+
+/* 
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  
+  .product__info-title a {
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+.product__details {
+  margin: 10px 90px;
+}
+
+.product__info {
+  margin-left: 90px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+.product__info-title img {
+  margin-left: 5px;
+  border: 2px solid #C64119;
+  border-radius: 50%;
+  padding: 2px;
+  background: #E8E8E8;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  width: 20px;
+}
+
+.product__info-title a {
+  text-decoration: none;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+}
+
+
+.product__info-title-primary {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.product--pricing a {
+  text-decoration: none;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 33px;
+  text-align: justify;
+  color: #E06707;
+}
+
+} */
+
+.product__title-select{
+  background: #FFFFFF;
+border: 0.5px solid #959595;
+box-sizing: border-box;
+border-radius: 30px;
+width: 112px;
+height: 40px;
+}
+
+
+.product__header-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+.product__header-title a {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 49px;
+  text-decoration: none;
+  color: #DF4A1E;
+}
+
+.product__info {
+  margin-left: 20px;
+}
+
+.product__title-select {
+  background: #FFFFFF;
+  border: 0.5px solid #959595;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+
+.first__image{
+  margin: 0px;
+}
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+  .product__header-title a {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 49px;
+    text-decoration: none;
+    color: #DF4A1E;
+  }
+  
+  .product__info {
+    margin-left: 20px;
+  }
+
+  .product__title-select {
+    background: #FFFFFF;
+    border: 0.5px solid #959595;
+    box-sizing: border-box;
+    border-radius: 30px;
+
+  }
+  }
+
+  @media only screen and (min-width: 425px) and (max-width: 768px) {
+    .product__header-title a {
+      font-family: 'Noto Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 49px;
+      text-decoration: none;
+      color: #DF4A1E;
+    }
+    
+    .product__title-select {
+      background: #FFFFFF;
+      border: 0.5px solid #959595;
+      box-sizing: border-box;
+      border-radius: 30px;
+      height: 40px;
+    }
+
+    }
+
+
+    
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .product__info-title img {
+    margin-left: 5px;
+    border: 2px solid #C64119;
+    border-radius: 50%;
+    padding: 2px;
+    background: #E8E8E8;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    width: 20px;
+  }
+  
+  .product__info-title a {
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+  }
+  
+  
+  .product__info-title-primary {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    opacity: 0.5;
+  }
+  
+  .product--pricing a {
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 33px;
+    text-align: justify;
+    color: #E06707;
+  }
+  
+  } 
+
+
+  .vertical__line{
+    border: 0.5px solid #959595;
+    transform: rotate(90deg);
+    margin: 0px 2px;
+  }
+
+  .first__image{
+    margin: 5px 10px;
+  }
+
+  .second__image{
+    margin: 5px 5px;
+  }
