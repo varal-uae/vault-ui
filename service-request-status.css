@@ -37,8 +37,10 @@ h6 {
   margin-bottom: 20px;
 }
 
+
+
 .secondCol select,
-input,
+.form-control,
 textarea {
   box-sizing: border-box;
   border-radius: 8px;
@@ -65,7 +67,6 @@ input[type="week"]:focus,
 input[type="number"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
-input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
@@ -101,3 +102,9 @@ input[type="color"]:focus,
     margin-bottom: 30px;
   }
 }
+
+
+/*  */
+
+
+/*  */

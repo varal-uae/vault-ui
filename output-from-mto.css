@@ -69,6 +69,33 @@ margin: 15px 0 10px;
   .mto-section-wrapper .heading-content p{
     padding-left: 0px;
 }
+.mto-section-wrapper .heading-content p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 23px 0px 21px 0px;
+    padding-left: 0px;
+}
+.mto-section-wrapper .title {
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.mto-section-wrapper h2 {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 49px;
+    color: rgba(221, 57, 9, 0.91);
+    margin-left: 27px;
+}
+.mto-section-wrapper .body-content p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #000000;
+    opacity: 0.5;
+}
 .mto-section-wrapper .heading-content {
     margin: 0 5px 10px;
 }

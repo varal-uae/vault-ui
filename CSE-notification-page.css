@@ -1,8 +1,9 @@
 * {
   font-family: "Noto Sans", serif;
 }
-h5 {
+.back {
   color: #fa3e0a !important;
+  font-weight: 700;
 }
 
 .h1,

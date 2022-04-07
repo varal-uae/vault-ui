@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"/>
+    <script src="https://kit.fontawesome.com/57c5287908.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./main-navbar.css">
+    <link rel="stylesheet" href="./profile-company-details.css">
+    <link rel="stylesheet" href="./profile-client-details.css">
+    <link rel="stylesheet" href="./profile-added-documents.css">
+
+  </head>
+
+  <body>
+    <header>
+      <section>
+          <div class="container=fluid">
+              <nav class="navbar navbar-expand-lg navbar-light ">
+                  <div class="container-fluid">
+                      <a class="navbar-brand" href="#"><img src="./assets/images/Rectangle 473.png" alt=""
+                              class="w-75 nav__img"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                          aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                          <ul class="navbar-nav mb-2 mb-lg-0 ">
+                              <li class="nav-item">
+                                  <a class="nav-link nav__links active" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link nav__links " href="#">Services</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link nav__links " href="#">Contact us</a>
+                              </li>
+                              <li class="nav-item d-flex justify-content-center">
+                                  <div class="dropdown nav__drop">
+                                      <button class="btn btn-secondary nav__more dropdown-toggle" type="button"
+                                          id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                          More
+                                      </button>
+                                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                          <li><a class="dropdown-item" href="#">Services Requested</a></li>
+                                          <li><a class="dropdown-item" href="#">Services Applied</a></li>
+                                          <li><a class="dropdown-item" href="#">About Us</a></li>
+                                          <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                      </ul>
+                                  </div>
+                              </li>
+                          </ul>
+                          <img class="varal-logo" src="./assets/images/Rectangle 473.png" alt=""
+                              class="humburger__icon">
+                          <form class="nav__useraccount">
+                              <!-- <a class="mx-2 text-decoration-none nav__icon" href="">
+                      <img src="./assets/images/search 1.png" alt="">
+                    </a> -->
+                              <a class="container-2">
+                                  <span class="icon"><i class="fa fa-search"></i></span>
+                                  <input type="search" id="search" />
+                              </a>
+
+                              <a class="mx-2 text-decoration-none nav__icon cart-div" href="">
+                                  <small class="cart__count">3</small>
+                                  <img src="./assets/images/cart.png" alt="">
+                              </a>
+                              <a class="mx-2 text-decoration-none nav__icon" href=""><img
+                                      src="./assets/images/fav.png" alt="">
+                              </a>
+                              <img src="./assets/images/Vector (6).png" alt="" class="profile-img">
+                              <a class="px-1"></a>
+                              <div class="dropdown ">
+                                  <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
+                                      data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  </button>
+                                  <div class="dropdown-menu nav-drop" aria-labelledby="dropdownMenuButton">
+                                      <a class="dropdown-item" href="#">one</a>
+                                      <a class="dropdown-item" href="#">two</a>
+                                      <a class="dropdown-item" href="#">three</a>
+                                  </div>
+                              </div>
+                      </div>
+                      </form>
+                  </div>
+              </nav>
+          </div>
+      </section>
+  </header>
+
+    <main>
+        <!-- Tabs -->
+      <section class="tab-section">
+        <div class="tab">
+          <img class="tab-section__img" src="./assets/images/profile 1.png" alt="" />
+          <button class="tablinks active" onclick="openCity(event, 'table1')">
+            Profile
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'table2')">
+            Company Details
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'table3')">
+            Added Documents
+          </button>
+        </div>
+        <!-- body contents -->
+        <div class="main-content tabcontent" id="table1" style="display: block">
+          <!-- Put profile here  -->
+             <section class="client-details p-2">
+            <div class="container client-details__body pt-2 ">
+                <div class="d-flex justify-content-between">
+                    <span>
+                        <p class="client-details__input-tittle">Name</p>
+                        <input class="client-details__input" type="text" placeholder="Jhon methew">
+                    </span>
+                    <button class="client-details__body-btn"><span>Edit</span> <svg width="15" height="15"
+                            viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16 2.0003C16.2626 1.73766 16.5744 1.52932 16.9176 1.38718C17.2608 1.24503 17.6286 1.17188 18 1.17188C18.3714 1.17187 18.7392 1.24503 19.0824 1.38718C19.4256 1.52932 19.7374 1.73766 20 2.0003C20.2626 2.26295 20.471 2.57475 20.6131 2.91791C20.7553 3.26107 20.8284 3.62887 20.8284 4.0003C20.8284 4.37174 20.7553 4.73953 20.6131 5.08269C20.471 5.42585 20.2626 5.73766 20 6.0003L6.5 19.5003L1 21.0003L2.5 15.5003L16 2.0003Z"
+                                stroke="#FA7507" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></button>
+                </div>
+                <div class="mt-3">
+                    <p class="client-details__input-tittle">Contact no </p>
+                    <input class="client-details__input" type="text" placeholder="12346789">
+                </div>
+                <div class=" client-details__passport mt-3">
+                    <span>
+                        <p class="client-details__input-tittle">Passport No. </p>
+                        <input class="client-details__input" type="text" placeholder="12346789">
+                    </span>
+                    <span>
+                        <p class="client-details__input-tittle">Passport Expiry Date </p>
+                        <input class="VMServiceRequest-box__datePicker px-2" type="date" id="myDate" value="31/12/2020">
+                    </span>
+
+                </div>
+                <span>
+                    <p class="client-details__input-tittle mt-3">Establishment Card Expiry </p>
+                    <input class="VMServiceRequest-box__datePicker px-2" type="date" id="myDate" value="31/12/2020">
+                </span>
+            </div>
+        </section>
+        </div>
+        <div class="main-content tabcontent" id="table2">
+          <!-- put company details here  -->
+          <section class="company-details p-2">
+            <div class="container company-details__body p-4">
+                <div class="d-flex justify-content-between">
+                    <span>
+                        <p class="company-details__input-tittle">Company Name</p>
+                        <input class="company-details__input" type="text" placeholder="Varal">
+                    </span>
+                    <button class="company-details__body-btn"><a href=""><a href="" class="Edit__btn">Edit</a></span>
+                      <a href=""><svg width="16" height="16"
+                        viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M16 2.0003C16.2626 1.73766 16.5744 1.52932 16.9176 1.38718C17.2608 1.24503 17.6286 1.17188 18 1.17188C18.3714 1.17187 18.7392 1.24503 19.0824 1.38718C19.4256 1.52932 19.7374 1.73766 20 2.0003C20.2626 2.26295 20.471 2.57475 20.6131 2.91791C20.7553 3.26107 20.8284 3.62887 20.8284 4.0003C20.8284 4.37174 20.7553 4.73953 20.6131 5.08269C20.471 5.42585 20.2626 5.73766 20 6.0003L6.5 19.5003L1 21.0003L2.5 15.5003L16 2.0003Z"
+                            stroke="#FA7507" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg></a> </button>
+                </div>
+                <div class="mt-3">
+                    <p class="company-details__input-tittle">Registration Authority </p>
+                    <input class="company-details__input" type="text" placeholder="Dmcc">
+                </div>
+                <div class=" company-details__passport mt-3">
+                    <span>
+                        <p class="company-details__input-tittle">Importation Date </p>
+                        <input class="VMServiceRequest-box__datePicker px-2" type="date" id="myDate" value="31/12/2020">
+                    </span>
+                    <span>
+                        <p class="company-details__input-tittle">Closing Date </p>
+                        <input class="VMServiceRequest-box__datePicker px-2" type="date" id="myDate" value="31/12/2020">
+                    </span>
+
+                </div>
+
+                <div class=" company-details__passport mt-3">
+                    <span>
+                        <p class="company-details__input-tittle">Last Renewal Date</p>
+                        <input class="VMServiceRequest-box__datePicker px-2" type="date" id="myDate" value="31/12/2020">
+                    </span>
+                    <span>
+                        <p class="company-details__input-tittle">Lease Expiry Date</p>
+                        <input class="VMServiceRequest-box__datePicker px-2" type="date" id="myDate" value="31/12/2020">
+                    </span>
+
+                </div>
+                <span>
+                    <p class="company-details__input-tittle mt-3">Rak icc registration Date  </p>
+                    <input class="VMServiceRequest-box__datePicker px-2" type="date" id="myDate" value="31/12/2020">
+                </span>
+            </div>
+        </section>
+
+          <!--  -->
+        </div>
+        <div class="main-content tabcontent" id="table3">
+          <!-- put added document here  -->
+              <div class="container por">
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">
+                <div class="form-check d-flex justify-content-center">
+                  <input
+                    class="form-check-input mr10"
+                    type="checkbox"
+                    value=""
+                    id="select-all"
+                  />
+                  <label class="form-check-label" for="select-all">
+                    <div class="text-muted">Select All</div>
+                  </label>
+                </div>
+              </th>
+              <th scope="col" class="primary text-center">Documents</th>
+              <th scope="col" class="primary text-center">Last Updated Date</th>
+              <th scope="col">
+                <div class="flr actions">
+                  <img
+                    class="mr20"
+                    src="./assets/images/download.png"
+                    alt="download"
+                  />
+                  <img src="./assets/images/delete.png" alt="delete" />
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="tr-1">
+              <td>
+                <div class="form-check d-flex justify-content-center">
+                  <input
+                    class="form-check-input mr10"
+                    type="checkbox"
+                    value=""
+                    id="check-1"
+                    data-toggle="toggle"
+                  />
+                  <label class="form-check-label vh" for="select-all">
+                    <div class="text-muted">Select All</div>
+                  </label>
+                </div>
+              </td>
+              <td class="text-muted">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img class="mr10" src="./assets/images/pdf-2.png" alt="pdf" />
+                  <b>Invoice.pdf</b>
+                </div>
+              </td>
+              <td class="text-center text-muted">3/12/2022</td>
+              <td class="text-center">
+                <button class="add-new">Add new file</button>
+              </td>
+            </tr>
+            <tr id="tr-2">
+              <td>
+                <div class="form-check d-flex justify-content-center">
+                  <input
+                    class="form-check-input mr10"
+                    type="checkbox"
+                    value=""
+                    id="check-2"
+                    data-toggle="toggle"
+                  />
+                  <label class="form-check-label vh" for="select-all">
+                    <div class="text-muted">Select All</div>
+                  </label>
+                </div>
+              </td>
+              <td class="text-muted">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img class="mr10" src="./assets/images/pdf-2.png" alt="pdf" />
+                  <b>Invoice.pdf</b>
+                </div>
+              </td>
+              <td class="text-center text-muted">3/12/2022</td>
+              <td class="text-center">
+                <button class="add-new">Add new file</button>
+              </td>
+            </tr>
+            <tr id="tr-3">
+              <td>
+                <div class="form-check d-flex justify-content-center">
+                  <input
+                    class="form-check-input mr10"
+                    type="checkbox"
+                    value=""
+                    id="check-3"
+                    data-toggle="toggle"
+                  />
+                  <label class="form-check-label vh" for="select-all">
+                    <div class="text-muted">Select All</div>
+                  </label>
+                </div>
+              </td>
+              <td class="text-muted">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img class="mr10" src="./assets/images/pdf-2.png" alt="pdf" />
+                  <b>Invoice.pdf</b>
+                </div>
+              </td>
+              <td class="text-center text-muted">3/12/2022</td>
+              <td class="text-center">
+                <button class="add-new">Add new file</button>
+              </td>
+            </tr>
+            <tr id="tr-4">
+              <td>
+                <div class="form-check d-flex justify-content-center">
+                  <input
+                    class="form-check-input mr10"
+                    type="checkbox"
+                    value=""
+                    id="check-4"
+                    data-toggle="toggle"
+                  />
+                  <label class="form-check-label vh" for="select-all">
+                    <div class="text-muted">Select All</div>
+                  </label>
+                </div>
+              </td>
+              <td class="text-muted">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img class="mr10" src="./assets/images/pdf-2.png" alt="pdf" />
+                  <b>Invoice.pdf</b>
+                </div>
+              </td>
+              <td class="text-center text-muted">3/12/2022</td>
+              <td class="text-center">
+                <button class="add-new">Add new file</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+        </div>
+      </section>
+    </main>
+    <!-- tab  script-->
+    <script>
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName('tabcontent');
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = 'none';
+        }
+        tablinks = document.getElementsByClassName('tablinks');
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(' active', '');
+        }
+        document.getElementById(cityName).style.display = 'block';
+        evt.currentTarget.className += ' active';
+      }
+    </script>
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+      <!-- profile added Documents -->
+         <script>
+      let checkboxes = Array.from(
+        document.querySelectorAll(".form-check-input")
+      ).slice(1);
+      let selectAll = document.querySelector("#select-all");
+
+      checkboxes.map((i) => {
+        return (i.onclick = (e) => {
+          if (
+            Array.from(document.querySelectorAll(".form-check-input"))
+              .slice(1)
+              .map((i) => i.checked)
+              .every((i) => i === false)
+          ) {
+            selectAll.checked = false;
+            document.querySelector(".actions").style.display = "none";
+          } else {
+            selectAll.checked = true;
+          }
+
+          let row = e.target.parentElement.parentElement.parentElement;
+          let addPink = () => {
+            row.classList.add("lightPink");
+            document.querySelector(".actions").style.display = "block";
+          };
+          let removePink = () => {
+            row.classList.remove("lightPink");
+          };
+          return e.target.checked ? addPink() : removePink();
+        });
+      });
+
+      selectAll.onclick = (e) => {
+        return e.target.checked
+          ? checkboxes.map((i) => {
+              let row = i.parentElement.parentElement.parentElement;
+              i.checked = true;
+              row.classList.add("lightPink");
+              document.querySelector(".actions").style.display = "block";
+            })
+          : checkboxes.map((i) => {
+              let row = i.parentElement.parentElement.parentElement;
+              i.checked = false;
+              row.classList.remove("lightPink");
+              document.querySelector(".actions").style.display = "none";
+            });
+      };
+    </script>
+        <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script> -->
+  </body>
+</html>
