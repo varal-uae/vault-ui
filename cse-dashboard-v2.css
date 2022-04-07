@@ -206,6 +206,43 @@ color: black;
     .cse-section-wrapper .heading-content p {
         padding-left: 0px;
     }
+    .cse-section-wrapper .body-content .body-img {
+    margin: 5px 0 5px;
+}
+    .cse-section-wrapper .body-content p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.5;
+    margin: auto 0;
+}
+    .cse-section-wrapper .heading-content p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    margin: 0;
+    width: 12.5%;
+    text-align: center;
+    min-width: 140px;
+    white-space: pre;
+}
+    .cse-section-wrapper h4 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 5px;
+    color: #807d7d;
+    margin: 0 0 30px 15px;
+}
+    .cse-section-wrapper h2 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 49px;
+    color: rgba(221, 57, 9, 0.91);
+    margin-left: 15px;
+}
 
 }
 @media only screen and (max-width: 1200px) {
