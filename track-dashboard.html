@@ -47,7 +47,7 @@
 
                               <a class="mx-2 text-decoration-none" href=""><img src="assets/images/iconoir_bell-notification.png" alt="">
                                   </a>
-                                <img src="assets/images/Mask group.png" alt="">
+                                <img src="assets/images/header navbar image.png" alt="">
                                 <a class="px-1"></a>
           <div class="dropdown ">
             <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
@@ -80,18 +80,19 @@
 
       <!-- table starts -->
 
-      <div class="table__title">
-          <span>Request ID</span>
-          <span>Details of product</span>
-          <span>product name</span>
-          <span>Request  date</span>
-          <span>status</span>
-      </div>
-      <div style="overflow-x: auto;">
         <table>
-    
-
- 
+          <tbody>
+            <tr id="table__title">
+              <td data-label="trackdashboard__data">Request ID</td>
+              <td class="trackdashboard__data">Details of product</td>
+              <td class="trackdashboard__data">product name</td>
+              <td class="trackdashboard__data">Request date</td>
+              <td class="trackdashboard__data">status</td>
+              <td></td>
+            </tr>
+          </tbody>
+      
+          <tr style="height: 1rem;"></tr>
           <tbody>
             <tr>
             <td data-label="trackdashboard__data"></td>
@@ -129,9 +130,10 @@
              </table>
   
   
-        
+        <div>
         <table>
-          <tbody>
+          <tbody  id="table__body-secondary">
+            <tr>
             <td data-label="trackdashboard__data"></td>
             <td class="track__secondrow" data-label="trackdashboard__data">details</td>
             <td data-label="trackdashboard__data"></td>
@@ -166,9 +168,7 @@
         </tbody>
         </table>
   
-
       </div>
-     
       <div class="text-center">
         <span class="text-center">
         <svg width="32" height="12" viewBox="0 0 32 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -188,7 +188,7 @@
         <p>Number of Request Recived</p> <h3>150</h3>
       </div>
       <div class="d-flex align-items-center justify-content-between">
-        <p>Number of Request compleated</p> <h3>2A0</h3>
+        <p>Number of Request compleated</p> <h3>20</h3>
       </div>
       <div class="d-flex align-items-center justify-content-between">
         <p>Number of Request pending</p> <h3>130</h3>
