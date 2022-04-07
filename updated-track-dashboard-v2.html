@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- css -->
+    <link rel="stylesheet" href="./updated-track-dashboard-v2.css" />
+    <title>Track dashboard V2</title>
+</head>
+
+<body>
+    <!-- navbar  -->
+    <header>
+        <div class="container">
+            <section>
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="./assets/images/Rectangle 473.png" alt=""
+                                class="w-75 nav__img"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav mb-2 mb-lg-0 ">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Dashboard</a>
+                                </li>
+                            </ul>
+                            <img class="varal-logo" src="./assets/images/Rectangle 473.png" alt=""
+                                class="humburger__icon">
+                            <form class="nav__useraccount pt-3">
+                                <span class="mx-3 " href=""><button type="button" class="btn " data-bs-toggle="modal"
+                                        data-bs-target="#staticBackdrop">
+                                        <svg width="21" height="22" viewBox="0 0 21 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M11.73 20C11.5544 20.3033 11.3021 20.5552 10.9985 20.7302C10.6948 20.9053 10.3505 20.9974 10 20.9974C9.6495 20.9974 9.30517 20.9053 9.00152 20.7302C8.69788 20.5552 8.44561 20.3033 8.27 20M16.134 10C16.715 15.375 19 17 19 17H1C1 17 4 14.867 4 7.4C4 5.703 4.632 4.075 5.757 2.875C6.883 1.675 8.41 1 10 1C10.337 1 10.672 1.03 11 1.09L16.134 10ZM17 7C17.7956 7 18.5587 6.68393 19.1213 6.12132C19.6839 5.55871 20 4.79565 20 4C20 3.20435 19.6839 2.44129 19.1213 1.87868C18.5587 1.31607 17.7956 1 17 1C16.2044 1 15.4413 1.31607 14.8787 1.87868C14.3161 2.44129 14 3.20435 14 4C14 4.79565 14.3161 5.55871 14.8787 6.12132C15.4413 6.68393 16.2044 7 17 7Z"
+                                                stroke="black" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+                                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                        aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title notification-box__modal-title"
+                                                        id="staticBackdropLabel">Notification</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body text-start">
+                                                    <P class="modal-body__text">You have <span
+                                                            class="modal-body__text-coloured">3 Notification</span>
+                                                        Today</P>
+                                                    <p class="modal-body__tittle">Today</p>
+                                                    <ul class="ul1">
+                                                        <li class="modal-body__list-text"><span
+                                                                class="modal-body__text-coloured">1 new order New
+                                                                order</span> recived from David Brownie....</li>
+                                                        <li class="modal-body__list-text"><span
+                                                                class="modal-body__text-coloured">1 new order New
+                                                                order</span> recived from David Brownie....</li>
+                                                        <li class="modal-body__list-text"><span
+                                                                class="modal-body__text-coloured">1 new order New
+                                                                order</span> recived from David Brownie....</li>
+                                                    </ul>
+                                                    <p class="modal-body__tittle">This Week </p>
+                                                    <ul class="ul2">
+                                                        <li class="modal-body__list-text">1 new order New order recived
+                                                            from David Brownie....</li>
+                                                        <li class="modal-body__list-text">1 new order New order recived
+                                                            from David Brownie....</li>
+                                                        <li class="modal-body__list-text">1 new order New order recived
+                                                            from David Brownie....</li>
+                                                        <li class="modal-body__list-text">1 new order New order recived
+                                                            from David Brownie....</li>
+                                                        <li class="modal-body__list-text">1 new order New order recived
+                                                            from David Brownie....</li>
+                                                        <li class="modal-body__list-text">1 new order New order recived
+                                                            from David Brownie....</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </span>
+                                <img class="rounded-circle navbar__user-img mx-3 "
+                                    src="./assets/images/15124490720_40b05ff9d8_z 1.png" alt="">
+                                <a class="px-1"></a>
+                                <div class="dropdown ">
+                                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">one</a>
+                                        <a class="dropdown-item" href="#">two</a>
+                                        <a class="dropdown-item" href="#">three</a>
+                                    </div>
+                                </div>
+                        </div>
+                        </form>
+                    </div>
+        </div>
+        </nav>
+        </section>
+    </header>
+    <main>
+        <section class="cse-section-wrapper">
+          <h2>Dashboard</h2>
+          <h4>Hello Warner! Welcome Back</h4>
+          <!-- nav and tabs -->
+          <section>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">No of orders Completed <span class="dashboard__tabs-text">20</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">No of orders recived <span class="dashboard__tabs-text">150</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contacts" type="button" role="tab" aria-controls="pills-contacts" aria-selected="false">No of orders pending <span class="dashboard__tabs-text">130</span></button>
+                  </li>
+              </ul>
+              <div class="d-flex justify-content-end" type="button">
+                  <p class="text-danger">Filter</p>
+                  <p><svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.5 16L10.5 12H6.75V0H4.25V12H0.5L5.5 16ZM11.75 4H23V6H11.75V4ZM11.75 8H20.5V10H11.75V8ZM11.75 0H25.5V2H11.75V0ZM11.75 12H18V14H11.75V12Z" fill="#F24E1E"/>
+                    </svg>
+                    </p>
+              </div>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><div class="main-content">
+                    <div class="d-flex heading-content  align-items-center">
+                      <p class="mx-4 my-3">Request ID</p>
+                      <p class="mx-4 my-3">Details of product</p>
+                      <p class="mx-5">Product  Name</p>
+                      <p class="mx-4">Request  date</p>
+                      <p class="mx-4">Status</p>
+            
+                     
+                    </div>
+            
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                      
+                        <h5 class="body-item yellow-text">In progress</h5>
+                      
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                        <h5 class="body-item green-text">Completed</h5>
+                     
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                      <h5 class="body-item green-text">Completed</h5>
+                     
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                        <h5 class="body-item yellow-text">In progress</h5>
+                    
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                    
+                        <h5 class="body-item yellow-text">In progress</h5>
+                     
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                      <h5 class="body-item green-text">Completed</h5>
+                    
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                        <h5 class="body-item yellow-text">In progress</h5>
+                    
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                  </div></div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><div class="main-content">
+                    <div class="d-flex heading-content  align-items-center">
+                        <p class="mx-4 my-3">Request ID</p>
+                        <p class="mx-4 my-3">Details of product</p>
+                        <p class="mx-5">Product  Name</p>
+                        <p class="mx-4">Request  date</p>
+                        <p class="mx-4">Status</p>
+            
+                     
+                    </div>
+            
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                      
+                        <h5 class="body-item yellow-text">In progress</h5>
+                      
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                        <h5 class="body-item green-text">Completed</h5>
+                     
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                      <h5 class="body-item green-text">Completed</h5>
+                     
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                        <h5 class="body-item yellow-text">In progress</h5>
+                    
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                    
+                        <h5 class="body-item yellow-text">In progress</h5>
+                     
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                      <h5 class="body-item green-text">Completed</h5>
+                    
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                        <h5 class="body-item yellow-text">In progress</h5>
+                    
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                  </div></div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><div class="main-content">
+                    <div class="d-flex heading-content  align-items-center">
+                        <p class="mx-4 my-3">Request ID</p>
+                        <p class="mx-4 my-3">Details of product</p>
+                        <p class="mx-5">Product  Name</p>
+                        <p class="mx-4">Request  date</p>
+                        <p class="mx-4">Status</p>
+            
+                     
+                    </div>
+            
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                      
+                        <h5 class="body-item yellow-text">In progress</h5>
+                      
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                        <h5 class="body-item green-text">Completed</h5>
+                     
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                      <h5 class="body-item green-text">Completed</h5>
+                     
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                        <h5 class="body-item yellow-text">In progress</h5>
+                    
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                    
+                        <h5 class="body-item yellow-text">In progress</h5>
+                     
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                      <h5 class="body-item green-text">Completed</h5>
+                    
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                        <h5 class="body-item yellow-text">In progress</h5>
+                    
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                  </div></div>
+                  <div class="tab-pane fade" id="pills-contacts" role="tabpanel" aria-labelledby="pills-contact-tab"><div class="main-content">
+                    <div class="d-flex heading-content  align-items-center">
+                        <p class="mx-4 my-3">Request ID</p>
+                        <p class="mx-4 my-3">Details of product</p>
+                        <p class="mx-5">Product  Name</p>
+                        <p class="mx-4">Request  date</p>
+                        <p class="mx-4">Status</p>
+            
+                     
+                    </div>
+            
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                      
+                        <h5 class="body-item yellow-text">In progress</h5>
+                      
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                        <h5 class="body-item green-text">Completed</h5>
+                     
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                      <h5 class="body-item green-text">Completed</h5>
+                     
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                        <h5 class="body-item yellow-text">In progress</h5>
+                    
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                    
+                        <h5 class="body-item yellow-text">In progress</h5>
+                     
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                      <h5 class="body-item green-text">Completed</h5>
+                    
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                    <div class="d-flex body-content justify-content-around">
+                      <p class="body-item">12345648213513</p>
+                     
+                      <p class="body-item">Visa Renewal</p>
+                      <p class="body-item">3 Yrs Investor Visa Renewal</p>
+                      <p class="body-item">12/12/2021 </p>
+                     
+                        <h5 class="body-item yellow-text">In progress</h5>
+                    
+                      <button class="body-item white-button">Acknowledge</button>
+                  </div>
+                  </div></div>
+              </div>
+          </section>
+          
+        </section>
+        <section  class="pagination-section-wrapper">
+            <div class="pagination d-flex">
+       <a href="#"><</a>
+       <a href="#">1</a>
+       <a class="active" href="#">2</a>
+       <a href="#">3</a>
+       <a href="#">4</a>
+       <a href="#">5</a>
+       <a href="#">...</a>
+       <a href="#">></a>
+     </div>
+         </section>
+      </main>
+    <!-- bootstrap js bundle  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
