@@ -69,6 +69,7 @@ main {
 }
 .dashboard-section-wrapper .body-content p {
     font-weight: normal;
+    font-family: 'Noto Sans';
     font-size: 18px;
     line-height: 25px;
     color: #000000;
@@ -192,6 +193,73 @@ main {
     .dashboard-section-wrapper .heading-content p {
         padding-left: 0px;
     }
+    .dashboard-section-wrapper .detrails-card h3 {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 42px;
+    margin: 0;
+    color: #000000;
+}
+    .dashboard-section-wrapper .detrails-card p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    margin: 0;
+    color: #000000;
+    opacity: 0.7;
+}
+    .dashboard-section-wrapper .detrails-card h5 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    margin: 0;
+    margin-left: 10px;
+    color: #0964de;
+}
+    .dashboard-section-wrapper .detrails-card h4 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 33px;
+    margin: 0;
+    color: #000000;
+}
+    .dashboard-section-wrapper .body-content p {
+    font-weight: normal;
+    font-family: 'Noto Sans';
+    font-size: 15px;
+    line-height: 5px;
+    color: #000000;
+    opacity: 0.5;
+    margin: 20px auto;
+    white-space: pre;
+}
+    .dashboard-section-wrapper .heading-content p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+      font-family: 'Noto Sans';
+    color: #ffffff;
+    margin: 0;
+    width: 13.28%;
+    text-align: center;
+    min-width: 140px;
+    white-space: pre;
+}
+    .dashboard-section-wrapper h4 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2px;
+    color: #807d7d;
+    margin: 0 0 30px 15px;
+}
+    .dashboard-section-wrapper h2 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 49px;
+    color: rgba(221, 57, 9, 0.91);
+    margin-left: 15px;
+}
     .dashboard-section-wrapper .heading-content {
         margin: 0 5px 10px;
     }
