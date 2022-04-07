@@ -10,6 +10,13 @@
     }
     
     
+    
+}
+
+.dropdown-menu.show {
+  display: block;
+  margin-left: -109px;
+  margin-top: 26px;
 }
 
 @media (min-width: 992px) {
@@ -20,6 +27,12 @@
     .navbar-brand img{
         display: none;
     }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .navbar{
+    width: 100%;
+  }
 }
 
 
@@ -160,7 +173,9 @@ img.varal-logo {
     width: 300px;
   }
    
-
+.navbar{
+  background: #FFFFFF;
+}
 
   .container-2 input#search::-webkit-input-placeholder {
     color: #FFFFFF;
