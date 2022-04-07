@@ -66,7 +66,7 @@ main {
     border-bottom: 0.5px solid #00000024;
 }
 .cse-section-wrapper .body-content:hover {
- background: rgba(250, 111, 8, 0.5);
+ background: rgb(250 111 8 / 0.23);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 10px;
 z-index: 1;
@@ -132,6 +132,12 @@ z-index: 1;
     background: #FFFFFF;
     font-weight: 700;
 color: #E06907;
+
+}
+.cse-section-wrapper .body-content .white-button:hover {
+ background: linear-gradient(90.07deg, #DE3409 0.06%, #E06907 50.18%, #DD300A 99.95%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+color: white;
 
 }
 
@@ -200,6 +206,43 @@ color: black;
     .cse-section-wrapper .heading-content p {
         padding-left: 0px;
     }
+    .cse-section-wrapper .body-content .body-img {
+    margin: 5px 0 5px;
+}
+    .cse-section-wrapper .body-content p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.5;
+    margin: auto 0;
+}
+    .cse-section-wrapper .heading-content p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    margin: 0;
+    width: 12.5%;
+    text-align: center;
+    min-width: 140px;
+    white-space: pre;
+}
+    .cse-section-wrapper h4 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 5px;
+    color: #807d7d;
+    margin: 0 0 30px 15px;
+}
+    .cse-section-wrapper h2 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 49px;
+    color: rgba(221, 57, 9, 0.91);
+    margin-left: 15px;
+}
 
 }
 @media only screen and (max-width: 1200px) {
