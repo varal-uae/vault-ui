@@ -163,7 +163,7 @@ font-size: 15px;
     margin: 25px 0;
     color: #9F9F9F;
     width: 100%;
-    
+
 }
 .req-span{
     font-family: Noto Sans;
@@ -185,9 +185,9 @@ font-size: 15px;
 	font-size: 36px;
 	line-height: 49px;
 	text-align: center;
-	
+
 	color: #EB5108;
-	
+
 }
 .single-box {
 	border-radius: 20px;
@@ -260,7 +260,7 @@ font-size: 15px;
     .navbar-collapse .varal-logo {
       display: none;
     }
-  
+
     .nav__useraccount {
       justify-content: center;
     }
@@ -268,17 +268,17 @@ font-size: 15px;
         width: 100px;
     }
   }
-  
+
   @media (min-width: 992px) {
     .navbar-expand-lg .navbar-collapse {
       justify-content: space-between;
     }
-  
+
     .navbar-brand img {
       display: none;
     }
   }
-  
+
   @media only screen and (max-width: 768px) and (min-width: 1024px) {
     button[type="submit"] {
       text-indent: -999px;
@@ -294,7 +294,7 @@ font-size: 15px;
       cursor: pointer;
       position: absolute;
     }
-  
+
     input[type="search"] {
       background: #ffffff;
       border: 1px solid #142805;
@@ -307,21 +307,21 @@ font-size: 15px;
       position: relative;
     }
   }
-  
+
   .nav__useraccount {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
+
   .navbar-collapse {
     text-align: center;
   }
-  
+
   img.varal-logo {
     margin-left: -50px;
   }
-  
+
   .nav-link {
     font-style: normal !important;
     font-weight: bold !important;
@@ -330,12 +330,12 @@ font-size: 15px;
     color: #a6a6a6 !important;
     font-family: Noto Sans !important;
   }
-  
+
   .header__search {
     background-color: #ffffff;
   }
   /*  */
-  
+
   input[type="search"] {
     background: #ffffff;
     border: 1px solid #142805;
@@ -346,7 +346,7 @@ font-size: 15px;
     font-size: 14px;
     color: inherit;
   }
-  
+
   button[type="submit"] {
     text-indent: -999px;
     overflow: hidden;
@@ -360,37 +360,37 @@ font-size: 15px;
       no-repeat center;
     cursor: pointer;
   }
-  
+
   /*  */
   /* ends */
-  
+
   .container-2 {
     width: 200px;
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
   }
-  
+
   .container-2 input#search {
     width: 50px;
     height: 50px;
     border: none;
     font-size: 10pt;
     float: right;
-    padding-left: 35px;
+    padding-left: 15px !important;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
   }
-  
+
   .container-2 input#search::-webkit-input-placeholder {
     color: #65737e;
   }
-  
+
   .container-2 input#search:-ms-input-placeholder {
     color: #65737e;
   }
-  
+
   .container-2 .icon {
     position: absolute;
     margin-left: 60px;
@@ -399,37 +399,37 @@ font-size: 15px;
     color: #000000b2;
     font-size: 20px;
   }
-  
+
   .container-2 input#search:focus,
   .container-2 input#search:active {
     outline: none;
     width: 200px;
   }
-  
+
   .container-2 input#search::-webkit-input-placeholder {
     color: #ffffff;
   }
-  
+
   .container-2 input#search:-moz-placeholder {
     /* Firefox 18- */
     color: #ffffff;
   }
-  
+
   .container-2 input#search::-moz-placeholder {
     /* Firefox 19+ */
     color: #ffffff;
   }
-  
+
   .container-2 input#search:-ms-input-placeholder {
     color: #ffffff;
   }
-  
+
   .container-2:hover input#search {
     height: 40px;
     width: 200px;
     border: 1px solid rgba(0, 0, 0, 0.329);
   }
-  
+
   .container-2:hover .icon {
     margin-top: 5px;
     color: #000000b2;
@@ -474,22 +474,22 @@ font-size: 15px;
     .navbar-collapse .varal-logo {
       display: none;
     }
-  
+
     .nav__useraccount {
       justify-content: center;
     }
   }
-  
+
   @media (min-width: 992px) {
     .navbar-expand-lg .navbar-collapse {
       justify-content: space-between;
     }
-  
+
     .navbar-brand img {
       display: none;
     }
   }
-  
+
   @media only screen and (max-width: 768px) and (min-width: 1024px) {
     button[type="submit"] {
       text-indent: -999px;
@@ -505,7 +505,7 @@ font-size: 15px;
       cursor: pointer;
       position: absolute;
     }
-  
+
     input[type="search"] {
       background: #ffffff;
       border: 1px solid #142805;
@@ -518,21 +518,21 @@ font-size: 15px;
       position: relative;
     }
   }
-  
+
   .nav__useraccount {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
+
   .navbar-collapse {
     text-align: center;
   }
-  
+
   img.varal-logo {
     margin-right: -120px;
   }
-  
+
   .nav-link {
     margin: 20px;
     font-style: normal !important;
@@ -542,12 +542,12 @@ font-size: 15px;
     color: #a6a6a6 !important;
     font-family: Noto Sans !important;
   }
-  
+
   .header__search {
     background-color: #ffffff;
   }
   /*  */
-  
+
   input[type="search"] {
     background: #ffffff;
     border: 1px solid #142805;
@@ -558,7 +558,7 @@ font-size: 15px;
     font-size: 14px;
     color: inherit;
   }
-  
+
   button[type="submit"] {
     text-indent: -999px;
     overflow: hidden;
@@ -572,17 +572,17 @@ font-size: 15px;
       no-repeat center;
     cursor: pointer;
   }
-  
+
   /*  */
   /* ends */
-  
+
   .container-2 {
     width: 200px;
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
   }
-  
+
   .container-2 input#search {
     width: 50px;
     height: 50px;
@@ -594,15 +594,15 @@ font-size: 15px;
     -moz-border-radius: 5px;
     border-radius: 5px;
   }
-  
+
   .container-2 input#search::-webkit-input-placeholder {
     color: #65737e;
   }
-  
+
   .container-2 input#search:-ms-input-placeholder {
     color: #65737e;
   }
-  
+
   .container-2 .icon {
     position: absolute;
     margin-left: 60px;
@@ -611,62 +611,62 @@ font-size: 15px;
     color: #000000c0;
     font-size: 20px;
   }
-  
+
   .container-2 input#search:focus,
   .container-2 input#search:active {
     outline: none;
     width: 200px;
   }
-  
+
   .container-2 input#search::-webkit-input-placeholder {
     color: #ffffff;
   }
-  
+
   .container-2 input#search:-moz-placeholder {
     /* Firefox 18- */
     color: #ffffff;
   }
-  
+
   .container-2 input#search::-moz-placeholder {
     /* Firefox 19+ */
     color: #ffffff;
   }
-  
+
   .container-2 input#search:-ms-input-placeholder {
     color: #ffffff;
   }
-  
+
   .container-2:hover input#search {
     height: 40px;
     width: 200px;
     border: 1px solid rgba(0, 0, 0, 0.329);
   }
-  
+
   .container-2:hover .icon {
     margin-top: 5px;
     color: #000000b2;
   }
-  
+
   input[type="search"]::-webkit-search-decoration,
   input[type="search"]::-webkit-search-cancel-button,
   input[type="search"]::-webkit-search-results-button,
   input[type="search"]::-webkit-search-results-decoration {
     display: none;
   }
-  
+
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .container-2 input#search:focus,
     .container-2 input#search:active {
       outline: none;
       width: 200px;
     }
-  
+
     .container-2:hover input#search {
         height: 40px;
         width: 200px;
         border: 1px solid rgba(0, 0, 0, 0.329);
     }
-  
+
     img.varal-logo {
       margin-right: -60px;
     }
@@ -678,7 +678,7 @@ font-size: 15px;
     .nav-link {
         margin: 2px;
       }
-      
+
     .container-2{
         width: 150px;
     }
@@ -698,7 +698,7 @@ font-size: 15px;
         width: 100px;
         border: 1px solid rgba(0, 0, 0, 0.329);
     }
-    
+
   }
   @media only screen and (min-width: 1024px) and (max-width: 1400px) {
     .container-2 input#search:focus,
@@ -706,26 +706,26 @@ font-size: 15px;
       outline: none;
       width: 200px;
     }
-  
+
     .container-2:hover input#search {
         height: 40px;
         width: 200px;
         border: 1px solid rgba(0, 0, 0, 0.329);
     }
-  
+
     img.varal-logo {
       margin-right: -60px;
     }
   }
-  
+
   .customNav {
     margin-bottom: 20px;
   }
-  
+
   .cart-div {
     position: relative;
   }
-  
+
   .cart-div small {
     font-weight: 700;
     font-size: 10px;
@@ -737,4 +737,3 @@ font-size: 15px;
     top: -15px;
     left: 29%;
   }
-    
