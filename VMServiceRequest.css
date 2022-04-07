@@ -249,6 +249,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .VMServiceRequest-box__header-text {
+    padding-left: 15px;
     font-family: Noto Sans;
     font-style: normal;
     font-weight: bold;
