@@ -113,7 +113,7 @@ opacity: 0.7;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 33px;
+    line-height: 28px;
     color: #ffffff;
     /* padding-left: 40px;
         padding-right: 40px; */
@@ -291,6 +291,63 @@ color: black;
     .om-section-wrapper .heading-content p {
         padding-left: 0px;
     }
+    .om-section-wrapper .body-content p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.5;
+    margin: auto 0;
+}
+    .om-section-wrapper .heading-content p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    margin: 0;
+    width: 12.5%;
+    text-align: center;
+    min-width: 140px;
+    white-space: pre;
+}
+    .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 17px 2px;
+    /* transition: 0.3s; */
+    font-size: 17px;
+    margin-right: 2px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+    .om-section-wrapper .tablinks {
+    padding-bottom: 15px !important;
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A3A3A3;
+}
+    .om-section-wrapper h4 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 5px;
+    color: #807d7d;
+    margin: 0 0 5px 15px;
+}
+    .om-section-wrapper h2 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    color: rgba(221, 57, 9, 0.91);
+    margin-left: 15px;
+}
 
 }
 @media only screen and (max-width: 1200px) {
