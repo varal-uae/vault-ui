@@ -1,0 +1,49 @@
+.body{
+    height: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forgot-pass{
+    width: 100%;
+    max-width: 500px;
+    padding: 41px;
+    border: 2px solid #525ded;
+    border-radius: 5px;
+    margin: 24px;
+}
+.forgot-label{
+    font-family: "Noto Sans Extra Bold";
+    font-size: 27px;
+    color: #DD3909;
+    margin: 0px 0 35px 0;
+    font-weight: 800;
+}
+.forgot-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+.user-ylw{
+    display: flex !important;
+    
+}
+.user-yellow{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90.07deg, #DE3409 0.06%, #E06907 50.18%, #DD300A 99.95%) !important;
+    color: #fff;
+    width: 42px;
+    border-radius: 10px;
+    font-size: 10px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.reset-button{
+    background: linear-gradient(90.07deg, #DE3409 0.06%, #E06907 50.18%, #DD300A 99.95%) !important;
+    color: #fff !important;
+}
