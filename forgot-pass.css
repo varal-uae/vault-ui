@@ -9,9 +9,10 @@
     width: 100%;
     max-width: 500px;
     padding: 41px;
-    border: 2px solid #525ded;
+    border:2px solid #b4b4b482;
     border-radius: 5px;
     margin: 24px;
+    min-height: 300px;
 }
 .forgot-label{
     font-family: "Noto Sans Extra Bold";
@@ -46,4 +47,7 @@
 .reset-button{
     background: linear-gradient(90.07deg, #DE3409 0.06%, #E06907 50.18%, #DD300A 99.95%) !important;
     color: #fff !important;
+}
+.username-label{
+    margin-bottom: 12px;
 }
